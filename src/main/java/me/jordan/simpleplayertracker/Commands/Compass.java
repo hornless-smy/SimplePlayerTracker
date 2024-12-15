@@ -21,7 +21,7 @@ public class Compass implements CommandExecutor{
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(!(sender instanceof Player)) {
-            sender.sendMessage("YOUR NOT A PLAYER CANT EXECUTE.");
+            sender.sendMessage("YOU'RE NOT A PLAYER; CANT EXECUTE.");
             return true;
         }
 
